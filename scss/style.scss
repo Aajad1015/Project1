@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 
+{
+    font-weight: 700;
+}
+
+header {
+    .logo {
+        width: 350px;
+    }
+
+    .flag {
+        width: 70px;
+
+    }
+}
+
+.bg-body-tertiary {
+    background: #07379B !important;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    color: #fff;
+    padding: 10px 15px;
+}
+
+.banner {
+    img {
+        height: 550px;
+        object-fit: cover;
+    }
+}
+
+.featured {
+    background: #07379B;
+    color: #fff;
+
+    h1 {
+        font-size: 3rem;
+
+    }
+}
+
+.childrenimg
+{
+    background:linear-gradient(to right,rgb(255, 255, 255),rgba(255, 255, 255, 0)),url(../Nepal.jpeg);
+   
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size:cover;
+       .fixed
+       {
+           padding: 40px 0px;
+           width: 40%;
+           margin: auto;
+           text-align: center;
+           color: white;       
+       }
+}
+
+.title {
+    position: relative;
+
+    &::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 110%;
+        width: 100px;
+        height: 4px;
+        background: #07379B;
+    }
+}
+
+.block2 {
+    .row {
+        gap: 30px;
+    }
+
+    .box {
+        background: rgb(230, 228, 228);
+        width: 650px;
+        height: 300px;
+        text-align: center;
+    }
+
+    h1 {
+
+        margin-top: 5px;
+        font-size: 3rem;
+    }
+
+}
+
+.block3 {
+    .logo {
+        width: 550px;
+
+    }
+}
+
+.block4 {
+    .logo {
+        width: 550px;
+
+    }
+}
+
+.block5 {
+    .logo {
+        width: 550px;
+
+    }
+}
+
+.block6 {
+    .logo {
+        width: 550px;
+
+    }
+}
+
+.end{
+    .logo1 {
+        width: 550px;
+    }
+}
+.slider
+{
+    .owl-carousel
+    {
+        box
+        {
+            width: 300px;
+            height: 150px;
+            background: #07379B;
+        }
+    }
+}
+
+
+
